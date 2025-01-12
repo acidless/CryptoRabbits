@@ -37,11 +37,11 @@ contract CryptoRabbits {
     mapping (uint => address) public rabbitToOwner;
     mapping (address => uint) ownerRabbitsCount;
 
-    function _createRabbit(string memory _name) internal {
-        uint dna = uint(keccak256(abi.encodePacked(msg.sender)));
+    function _createRabbit(string memory _name, address _owner) internal {
+        uint dna = uint(keccak256(abi.encodePacked(_owner, _name)));
         rabbits.push(Rabbit(_name, dna, block.timestamp, 1, 0));
         uint id = rabbits.length - 1;
-        rabbitToOwner[id] = msg.sender;
-        ownerRabbitsCount[msg.sender] += 1;
+        rabbitToOwner[id] = _owner;
+        ownerRabbitsCount[_owner] += 1;
     }
 }

@@ -8,6 +8,19 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "_createRabbit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
@@ -92,11 +105,11 @@
 	},
 	"sources": {
 		"contracts/CryptoRabbits.sol": {
-			"keccak256": "0x77e03aa2cfd64dbb45277ff26a577ff3121cb0386e788291b4ba02ceb56a1c72",
+			"keccak256": "0x4f0acc5e117bba0eef1e2d4260e78cc23c1fb975c37e4a755e277ac92edaba7a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://649e718e37e23b226025929c4250fb65f6859e395864d87c2216fa5f9404ae08",
-				"dweb:/ipfs/QmR3EmE6dqqSPKui779unLgizFQrSWUeQG5yDqffEZ1Lnk"
+				"bzz-raw://20e0a025005b512f444ab6f3a6476fa4298addefee4bf0728cd390a2aed1e527",
+				"dweb:/ipfs/QmaNqpjmRgsjx1JeUNWMsUSG6CZ6FdCrxfeSW8qAraKt5n"
 			]
 		}
 	},
