@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "rabbitToOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "rabbits",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "dna",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "birthday",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "generation",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "breedingCooldown",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CryptoRabbit.sol": "CryptoRabbit"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CryptoRabbit.sol": {
+			"keccak256": "0x3105134452805f026345c04bee13c08c902d1576e4fca6073c9767d677b0f8e8",
+			"urls": [
+				"bzz-raw://123dfad92a60d091aed3a64394ce64e242e9431b1d507c289a6567ae7fa10b0a",
+				"dweb:/ipfs/QmZb2TxfDTFTnqTP4haxdUFktHM6MZnNvYEScG6WtXYr1U"
+			]
+		}
+	},
+	"version": 1
+}
